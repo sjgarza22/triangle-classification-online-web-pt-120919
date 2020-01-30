@@ -7,7 +7,11 @@ class Triangle
     @side2 = side2
     @side3 = side3
   end
-  # write code here
+
+  def kind
+
+  end
+
   class TriangleError < StandardError
     # triangle error code
   end
